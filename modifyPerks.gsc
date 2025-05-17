@@ -21,7 +21,7 @@ modifyPerks()
     {
         if (self hasPerk(deathstreak))
         {
-            self unsetPerk(deathstreaks); 
+            self givperk("specialty_copycat"); 
         }
     }
 
